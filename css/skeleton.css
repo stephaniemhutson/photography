@@ -126,7 +126,13 @@ body {
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
-
+img {
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+/*  border-radius: 1em;*/
+  border-spacing: 1em;
+}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -390,6 +396,9 @@ hr {
   content: "";
   display: table;
   clear: both; }
+.center {
+  text-align: center;
+}
 
 
 /* Media Queries
